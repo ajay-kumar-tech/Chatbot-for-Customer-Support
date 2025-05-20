@@ -27,16 +27,19 @@ This project develops a **Customer Support Chatbot** using a **Transformer-based
 ---
 
 ## 📁 Project Structure
+
+```
 Chatbot-for-Customer-Support/
 │
-├── data/ # Cleaned and preprocessed dataset
-├── models/ # Saved model checkpoints
-├── notebooks/ # Development notebooks
-├── app/ # Flask app for deployment
-│ ├── static/ # Static files (CSS, JS, images)
-│ └── templates/ # HTML templates
-├── utils/ # Helper scripts (tokenization, preprocessing, etc.)
-├── train.py # Training script
-├── evaluate.py # Model evaluation and testing
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+├── data/                  # Cleaned and preprocessed dataset
+├── models/                # Saved model checkpoints
+├── notebooks/             # Development notebooks
+├── app/                   # Flask app for deployment
+│   ├── static/            # Static files (CSS, JS, images)
+│   └── templates/         # HTML templates
+├── utils/                 # Helper scripts (tokenization, preprocessing, etc.)
+├── train.py               # Training script
+├── evaluate.py            # Model evaluation and testing
+├── requirements.txt       # Project dependencies
+└── README.md              # Project documentation
+```
