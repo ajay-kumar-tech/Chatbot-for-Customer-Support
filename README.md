@@ -33,8 +33,8 @@ Chatbot-for-Customer-Support/
 ├── models/ # Saved model checkpoints
 ├── notebooks/ # Development notebooks
 ├── app/ # Flask app for deployment
-│ ├── static/
-│ └── templates/
+│ ├── static/ # Static files (CSS, JS, images)
+│ └── templates/ # HTML templates
 ├── utils/ # Helper scripts (tokenization, preprocessing, etc.)
 ├── train.py # Training script
 ├── evaluate.py # Model evaluation and testing
